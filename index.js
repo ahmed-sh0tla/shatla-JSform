@@ -19,13 +19,6 @@ var WebsiteLink = document.getElementById("exampleInputlink");
 var mainbtn = document.getElementById("btn-done")
 var selectedindex = -1
 
-if (localStorage.getItem('listOfNotes')) {
-    infolist = JSON.parse(localStorage.getItem('listOfNotes'));
-    readNotesList();
-}
-
-
-
 function createnew() {
     // event.preventDefault();
     var websiteObject =
